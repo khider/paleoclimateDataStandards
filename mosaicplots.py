@@ -240,6 +240,7 @@ mosaic(df1, ['WG','rec'], title='a. Recommendation for new datasets', \
 
 for tick in ax.get_xticklabels():
     tick.set_rotation(30)
+    tick.set_horizontalalignment('right')
 for tick in ax.get_yticklabels():
     tick.set_rotation(30)
 
@@ -257,6 +258,7 @@ mosaic(df2, ['WG','rec'], title='b. Recommendation for legacy datasets', \
 
 for tick in ax.get_xticklabels():
     tick.set_rotation(30)
+    tick.set_horizontalalignment('right')
 for tick in ax.get_yticklabels():
     tick.set_rotation(30)
 
